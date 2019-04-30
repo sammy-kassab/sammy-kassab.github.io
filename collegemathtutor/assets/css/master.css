@@ -1,0 +1,26 @@
+@import "opening.css";
+@import "actual.css";
+
+#thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width:100%;
+  position: absolute;
+  margin-bottom: 1.5vh;
+  transform: translateY(128vh)
+}
+
+#thanks p {
+  font-size: 18pt;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.sym {
+  opacity: 0;
+  animation: opening_4 3s ease-in forwards;
+  animation-delay: 0s;
+}
